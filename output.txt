@@ -1,0 +1,1220 @@
+2025-04-18 12:09:13: Starting job for service: ec2
+2025-04-18 12:09:13: Starting job for service: ecr
+2025-04-18 12:09:13: Starting job for service: vpc
+2025-04-18 12:09:13: Starting job for service: s3
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:21[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 10 checks, please wait...[0m
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:21[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 17 checks, please wait...[0m
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:22[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 5 checks, please wait...[0m
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:22[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 63 checks, please wait...[0m
+
+Check ID: s3_access_point_public_access_block - [35ms3[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecr_registry_scan_images_on_push_enabled - [35mecr[33m [medium][0m
+	[31mFAIL[0m us-east-1: ECR registry 443370690706 has BASIC scanning without scan on push enabled.
+
+
+Check ID: ecr_repositories_not_publicly_accessible - [35mecr[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecr_repositories_scan_images_on_push_enabled - [35mecr[33m [medium][0m
+	[31mFAIL[0m us-east-1: ECR repository frontend has scan on push disabled.
+	[31mFAIL[0m us-east-1: ECR repository prowler-ecr has scan on push disabled.
+	[31mFAIL[0m us-east-1: ECR repository backend has scan on push disabled.
+
+
+Check ID: ecr_repositories_scan_vulnerabilities_in_latest_image - [35mecr[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecr_repositories_tag_immutability - [35mecr[33m [medium][0m
+	[31mFAIL[0m us-east-1: Repository frontend does not have immutability configured.
+	[31mFAIL[0m us-east-1: Repository prowler-ecr does not have immutability configured.
+	[31mFAIL[0m us-east-1: Repository backend does not have immutability configured.
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 5/5 [100%] in 0.5s 
+
+Overview Results:
+╭───────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (7) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰───────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬──────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status   │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼──────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ ecr       │ [31mFAIL (7)[0m │          [91m0[0m │      [31m0[0m │        [33m7[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴──────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/ecr.asff.json
+
+Check ID: s3_account_level_public_access_blocks - [35ms3[33m [high][0m
+	[31mFAIL[0m us-east-1: Block Public Access is not configured for the account 443370690706.
+
+
+Check ID: s3_bucket_acl_prohibited - [35ms3[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_bucket_cross_account_access - [35ms3[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_bucket_default_encryption - [35ms3[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_bucket_event_notifications_enabled - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket does not have event notifications enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test does not have event notifications enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket does not have event notifications enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha does not have event notifications enabled.
+
+
+Check ID: s3_bucket_kms_encryption - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket prowler-iac-bucket.
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket prowler-reports-latest-test.
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket rvs-vvaha-bucket.
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket venki-devops-vvaha.
+
+
+Check ID: s3_bucket_level_public_access_block - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: Block Public Access is not configured for the S3 Bucket prowler-reports-latest-test.
+
+
+Check ID: s3_bucket_no_mfa_delete - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket has MFA Delete disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test has MFA Delete disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket has MFA Delete disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha has MFA Delete disabled.
+
+
+Check ID: s3_bucket_object_versioning - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test has versioning disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha has versioning disabled.
+
+
+Check ID: s3_bucket_policy_public_write_access - [35ms3[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_bucket_public_access - [35ms3[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_bucket_public_list_acl - [35ms3[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_bucket_public_write_acl - [35ms3[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_bucket_secure_transport_policy - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket does not have a bucket policy, thus it allows HTTP requests.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test allows requests over insecure transport in the bucket policy.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket does not have a bucket policy, thus it allows HTTP requests.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha does not have a bucket policy, thus it allows HTTP requests.
+
+
+Check ID: s3_bucket_server_access_logging_enabled - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket has server access logging disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test has server access logging disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket has server access logging disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha has server access logging disabled.
+
+
+Check ID: s3_multi_region_access_point_public_access_block - [35ms3[33m [high][0m
+	[33mINFO[0m There are no resources
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 17/17 [100%] in 1.4s 
+
+Overview Results:
+╭────────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (24) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰────────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬───────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status    │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ s3        │ [31mFAIL (24)[0m │          [91m0[0m │      [31m1[0m │       [33m23[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴───────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/s3.asff.json
+
+Check ID: ec2_ami_public - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_default_encryption - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EBS Default Encryption is not activated.
+
+
+Check ID: ec2_ebs_public_snapshot - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_snapshot_account_block_public_access - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_snapshots_encrypted - [35mec2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_volume_encryption - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EBS Snapshot vol-049dfa8106495acc2 is unencrypted.
+	[31mFAIL[0m us-east-1: EBS Snapshot vol-0ed91484afecc4fa6 is unencrypted.
+	[31mFAIL[0m us-east-1: EBS Snapshot vol-06b6f87b1b45ba8fe is unencrypted.
+
+
+Check ID: ec2_ebs_volume_snapshots_exists - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Snapshots not found for the EBS volume vol-049dfa8106495acc2.
+	[31mFAIL[0m us-east-1: Snapshots not found for the EBS volume vol-0ed91484afecc4fa6.
+	[31mFAIL[0m us-east-1: Snapshots not found for the EBS volume vol-06b6f87b1b45ba8fe.
+
+
+Check ID: ec2_elastic_ip_shodan - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_account_imdsv2_enabled - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_imdsv2_enabled - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_internet_facing_with_instance_profile - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 at IP 54.167.117.42 is internet-facing with Instance Profile arn:aws:iam::443370690706:instance-profile/ProwlerRole.
+
+
+Check ID: ec2_instance_managed_by_ssm - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EC2 Instance i-066fea2848676a79f is not managed by Systems Manager.
+	[31mFAIL[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 is not managed by Systems Manager.
+
+
+Check ID: ec2_instance_older_than_specific_days - [35mec2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_paravirtual_type - [35mec2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+2025-04-18 12:09:35: Starting job for service: rds
+2025-04-18 12:09:35: Starting job for service: iam
+
+Check ID: vpc_different_regions - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPCs found only in one region.
+
+
+Check ID: vpc_endpoint_connections_trust_boundaries - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_endpoint_multi_az_enabled - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_endpoint_services_allowed_principals_trust_boundaries - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_flow_logs_enabled - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC vpc-09b68eb946238b31c Flow logs are disabled.
+
+
+Check ID: vpc_peering_routing_tables_with_least_privilege - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_subnet_different_az - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_subnet_no_public_ip_by_default - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC subnet subnet-0b9ca4da51541fa18 assigns public IP by default.
+	[31mFAIL[0m us-east-1: VPC subnet subnet-0210b80be1fdb4b37 assigns public IP by default.
+	[31mFAIL[0m us-east-1: VPC subnet subnet-0b6acecb66807dcc2 assigns public IP by default.
+
+
+Check ID: vpc_subnet_separate_private_public - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC vpc-09b68eb946238b31c has only public subnets.
+
+
+Check ID: vpc_vpn_connection_tunnels_up - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 10/10 [100%] in 8.0s 
+
+Overview Results:
+╭───────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (6) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰───────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬──────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status   │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼──────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ vpc       │ [31mFAIL (6)[0m │          [91m0[0m │      [31m0[0m │        [33m6[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴──────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/vpc.asff.json
+2025-04-18 12:09:42: Starting job for service: lambda
+
+Check ID: ec2_instance_port_cassandra_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_cifs_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_elasticsearch_kibana_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_ftp_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_kafka_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_kerberos_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_ldap_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_memcached_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_mongodb_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_mysql_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_oracle_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_postgresql_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_rdp_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_redis_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_sqlserver_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_port_ssh_exposed_to_internet - [35mec2[33m [critical][0m
+	[31mFAIL[0m us-east-1: Instance i-066fea2848676a79f has SSH exposed to 0.0.0.0/0 on public IP address 52.91.172.77 in public subnet subnet-0b6acecb66807dcc2.
+	[31mFAIL[0m us-east-1: Instance i-0a99cd0a8eaf92b06 has SSH exposed to 0.0.0.0/0 on public IP address 54.167.117.42 in public subnet subnet-0210b80be1fdb4b37.
+
+
+Check ID: ec2_instance_port_telnet_exposed_to_internet - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_profile_attached - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EC2 Instance i-066fea2848676a79f not associated with an Instance Profile Role.
+	[31mFAIL[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 not associated with an Instance Profile Role.
+
+
+Check ID: ec2_instance_public_ip - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EC2 Instance i-066fea2848676a79f has a Public IP: 52.91.172.77 (ec2-52-91-172-77.compute-1.amazonaws.com).
+	[31mFAIL[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 has a Public IP: 3.91.241.214 (ec2-3-91-241-214.compute-1.amazonaws.com).
+	[31mFAIL[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 has a Public IP: 54.167.117.42 (ec2-54-167-117-42.compute-1.amazonaws.com).
+
+
+Check ID: ec2_instance_secrets_user_data - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_launch_template_imdsv2_required - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_launch_template_no_public_ip - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_launch_template_no_secrets - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_networkacl_allow_ingress_any_port - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Network ACL acl-0fef462a6a5cbc305 has every port open to the Internet.
+	[31mFAIL[0m us-east-1: Network ACL acl-0ac12c2e33d58cd33 has every port open to the Internet.
+
+
+Check ID: ec2_networkacl_allow_ingress_tcp_port_22 - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Network ACL acl-0fef462a6a5cbc305 has SSH port 22 open to the Internet.
+	[31mFAIL[0m us-east-1: Network ACL acl-0ac12c2e33d58cd33 has SSH port 22 open to the Internet.
+
+
+Check ID: ec2_networkacl_allow_ingress_tcp_port_3389 - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Network ACL acl-0fef462a6a5cbc305 has Microsoft RDP port 3389 open to the Internet.
+	[31mFAIL[0m us-east-1: Network ACL acl-0ac12c2e33d58cd33 has Microsoft RDP port 3389 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_all_ports - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_any_port - [35mec2[33m [high][0m
+	[31mFAIL[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) has at least one port open to the Internet but its network interface type (interface) is not allowed.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) has at least one port open to the Internet but its network interface type (interface) is not allowed.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_high_risk_tcp_ports - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_port_mongodb_27017_27018 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_ftp_port_20_21 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22 - [35mec2[33m [high][0m
+	[31mFAIL[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) has SSH port 22 open to the Internet.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) has SSH port 22 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_3389 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_cassandra_7199_9160_8888 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_elasticsearch_kibana_9200_9300_5601 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_kafka_9092 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_memcached_11211 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_mysql_3306 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_oracle_1521_2483 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_postgres_5432 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_redis_6379 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_sql_server_1433_1434 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_telnet_23 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_allow_wide_open_public_ipv4 - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_securitygroup_default_restrict_traffic - [35mec2[33m [high][0m
+	[31mFAIL[0m us-east-1: Default Security Group (sg-0e0f533a225d82a67) rules allow traffic.
+
+
+Check ID: ec2_securitygroup_from_launch_wizard - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Security group launch-wizard-4 (sg-061b36a49346ef2e2) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-8 (sg-0e6d7b756d5ef587f) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-1 (sg-06951f600b7a9fd21) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-3 (sg-0f63e0037b824444c) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-2 (sg-00662a343b6b1a00f) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-5 (sg-030a5f9d821fb4ca2) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-6 (sg-0ba6845ecada4a2a4) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) was created using the EC2 Launch Wizard.
+
+
+Check ID: ec2_securitygroup_with_many_ingress_egress_rules - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_transitgateway_auto_accept_vpc_attachments - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_endpoint_for_ec2_enabled - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC vpc-09b68eb946238b31c has no EC2 endpoint.
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 63/63 [100%] in 9.6s 
+
+Overview Results:
+╭────────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (38) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰────────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬───────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status    │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ ec2       │ [31mFAIL (38)[0m │          [91m2[0m │      [31m5[0m │       [33m31[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴───────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/ec2.asff.json
+2025-04-18 12:09:45: Starting job for service: secretmanager
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:39[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 39 checks, please wait...[0m
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:40[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 24 checks, please wait...[0m
+
+Check ID: rds_cluster_backtrack_enabled - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_default_admin - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_iam_authentication_enabled - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_integration_cloudwatch_logs - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_minor_version_upgrade_enabled - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_multi_az - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_protected_by_backup_plan - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_storage_encrypted - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_instance_backup_enabled - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have backup enabled.
+
+
+Check ID: rds_instance_certificate_expiration - [35mrds[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_instance_default_admin - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db is using the default master username.
+
+
+Check ID: rds_instance_deletion_protection - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db deletion protection is not enabled.
+
+
+Check ID: rds_instance_deprecated_engine_version - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_instance_event_subscription_security_groups - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS security group event categories of configuration change and failure are not subscribed.
+
+
+Check ID: rds_instance_iam_authentication_enabled - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have IAM authentication enabled.
+
+
+Check ID: rds_instance_inside_vpc - [35mrds[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_instance_integration_cloudwatch_logs - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have CloudWatch Logs enabled.
+
+
+Check ID: rds_instance_multi_az - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have multi-AZ enabled.
+
+
+Check ID: iam_administrator_access_with_mfa - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_avoid_root_usage - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_aws_attached_policy_no_administrative_privileges - [35miam[33m [high][0m
+	[31mFAIL[0m us-east-1: AWS policy AdministratorAccess is attached and allows '*:*' administrative privileges.
+
+
+Check ID: iam_customer_attached_policy_no_administrative_privileges - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_group_administrator_access_policy - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_inline_policy_allows_privilege_escalation - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_inline_policy_no_administrative_privileges - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_inline_policy_no_full_access_to_cloudtrail - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_inline_policy_no_full_access_to_kms - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_no_custom_policy_permissive_role_assumption - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_no_expired_server_certificates_stored - [35miam[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_no_root_access_key - [35miam[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_password_policy_expires_passwords_within_90_days_or_less - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: Password expiration is not set.
+
+
+Check ID: iam_password_policy_lowercase - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one lowercase letter.
+
+
+Check ID: iam_password_policy_minimum_length_14 - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require minimum length of 14 characters.
+
+
+Check ID: iam_password_policy_number - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one number.
+
+
+Check ID: iam_password_policy_reuse_24 - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy reuse prevention is less than 24 or not set.
+
+
+Check ID: iam_password_policy_symbol - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one symbol.
+
+
+Check ID: iam_password_policy_uppercase - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one uppercase letter.
+
+
+Check ID: iam_policy_allows_privilege_escalation - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_policy_cloudshell_admin_not_attached - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_policy_no_full_access_to_cloudtrail - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_policy_no_full_access_to_kms - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_role_administratoraccess_policy - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_role_cross_account_readonlyaccess_policy - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_role_cross_service_confused_deputy_prevention - [35miam[33m [high][0m
+	[31mFAIL[0m us-east-1: IAM Service Role aws-ec2 does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role aws-ec2-venki does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role iam_for_lambda1 does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role prowler-iam-role does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role ProwlerRole does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role s3role does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role testrole does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role testSNS-role-sklx818t does not prevent against a cross-service confused deputy attack.
+
+
+Check ID: iam_root_credentials_management_enabled - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_root_hardware_mfa_enabled - [35miam[33m [critical][0m
+	[31mFAIL[0m us-east-1: MFA is not enabled for root account.
+
+
+Check ID: iam_root_mfa_enabled - [35miam[33m [critical][0m
+	[31mFAIL[0m us-east-1: MFA is not enabled for root account.
+
+
+Check ID: iam_rotate_access_key_90_days - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_support_role_created - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: AWS Support Access policy is not attached to any role.
+
+
+Check ID: iam_user_accesskey_unused - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_user_administrator_access_policy - [35miam[33m [high][0m
+	[31mFAIL[0m us-east-1: IAM User venkatesh has AdministratorAccess policy attached.
+
+
+Check ID: iam_user_console_access_unused - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_user_hardware_mfa_enabled - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: User venkatesh does not have any type of MFA enabled.
+
+
+Check ID: iam_user_mfa_enabled_console_access - [35miam[33m [high][0m
+	[31mFAIL[0m us-east-1: User venkatesh has Console Password enabled but MFA disabled.
+
+
+Check ID: iam_user_no_setup_initial_access_key - [35miam[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_user_two_active_access_key - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: User venkatesh has 2 active access keys.
+
+
+Check ID: iam_user_with_temporary_credentials - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: User venkatesh has long lived credentials with access to other services than IAM or STS.
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 39/39 [100%] in 7.4s 
+
+Overview Results:
+╭────────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (24) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰────────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬───────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status    │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ iam       │ [31mFAIL (24)[0m │          [91m2[0m │     [31m11[0m │       [33m11[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴───────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/iam.asff.json
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:49[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+
+ [1mThere are no findings in Account [33m443370690706[0m
+
+2025-04-18 12:09:58: Starting job for service: dynamodb
+2025-04-18 12:09:58: Starting job for service: sqs
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:09:51[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+
+ [1mThere are no findings in Account [33m443370690706[0m
+
+2025-04-18 12:09:59: Starting job for service: sns
+
+Check ID: rds_instance_no_public_access - [35mrds[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_instance_protected_by_backup_plan - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db is not protected by a backup plan.
+
+
+Check ID: rds_instance_storage_encrypted - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db is not encrypted.
+
+
+Check ID: rds_instance_transport_encrypted - [35mrds[33m [high][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db connections are not encrypted.
+
+
+Check ID: rds_snapshots_encrypted - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_snapshots_public_access - [35mrds[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 24/24 [100%] in 15.2s 
+
+Overview Results:
+╭────────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (10) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰────────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬───────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status    │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ rds       │ [31mFAIL (10)[0m │          [91m0[0m │      [31m1[0m │        [33m9[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴───────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/rds.asff.json
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:10:03[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 9 checks, please wait...[0m
+
+Check ID: dynamodb_accelerator_cluster_encryption_enabled - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_accelerator_cluster_in_transit_encryption_enabled - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_accelerator_cluster_multi_az - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:10:04[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 2 checks, please wait...[0m
+
+Check ID: sqs_queues_not_publicly_accessible - [35msqs[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_table_autoscaling_enabled - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_table_cross_account_access - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sqs_queues_server_side_encryption_enabled - [35msqs[33m [medium][0m
+
+Check ID: dynamodb_table_deletion_protection_enabled - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 2/2 [100%] in 0.2s 
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table does not have deletion protection enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table does not have deletion protection enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha does not have deletion protection enabled.
+
+
+ [1mThere are no findings in Account [33m443370690706[0m
+
+
+Check ID: dynamodb_table_protected_by_backup_plan - [35mdynamodb[33m [medium][0m
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table is not protected by a backup plan.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table is not protected by a backup plan.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha is not protected by a backup plan.
+
+
+Check ID: dynamodb_tables_kms_cmk_encryption_enabled - [35mdynamodb[33m [medium][0m
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table is using DEFAULT encryption.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table is using DEFAULT encryption.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha is using DEFAULT encryption.
+
+
+Check ID: dynamodb_tables_pitr_enabled - [35mdynamodb[33m [medium][0m
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table does not have point-in-time recovery enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table does not have point-in-time recovery enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha does not have point-in-time recovery enabled.
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 9/9 [100%] in 0.8s 
+
+Overview Results:
+╭────────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (12) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰────────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬───────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status    │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ dynamodb  │ [31mFAIL (12)[0m │          [91m0[0m │      [31m0[0m │       [33m12[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴───────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/dynamodb.asff.json
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:10:05[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 3 checks, please wait...[0m
+
+Check ID: sns_subscription_not_using_http_endpoints - [35msns[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sns_topics_kms_encryption_at_rest_enabled - [35msns[33m [high][0m
+	[31mFAIL[0m us-east-1: SNS topic prowler-sns-topic is not encrypted.
+
+
+Check ID: sns_topics_not_publicly_accessible - [35msns[33m [high][0m
+	[33mINFO[0m There are no resources
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 3/3 [100%] in 0.2s 
+
+Overview Results:
+╭───────────────────┬─────────────────┬────────────────╮
+│ [31m100.0% (1) Failed[0m │ [32m0.0% (0) Passed[0m │ [38;5;208m0.0% (0) Muted[0m │
+╰───────────────────┴─────────────────┴────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬───────────┬──────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service   │ Status   │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼───────────┼──────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ sns       │ [31mFAIL (1)[0m │          [91m0[0m │      [31m1[0m │        [33m0[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴───────────┴──────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - JSON-ASFF: /home/prowler/output/sns.asff.json
+All jobs completed
+Completed 120.7 KiB/378.7 KiB (1.3 MiB/s) with 8 file(s) remainingupload: ../prowler_output/ec2.asff.json to s3://prowler-reports-latest-test/ec2.asff.json
+Completed 120.7 KiB/378.7 KiB (1.3 MiB/s) with 7 file(s) remainingCompleted 135.4 KiB/378.7 KiB (1.3 MiB/s) with 7 file(s) remainingupload: ../prowler_output/ecr.asff.json to s3://prowler-reports-latest-test/ecr.asff.json
+Completed 135.4 KiB/378.7 KiB (1.3 MiB/s) with 6 file(s) remainingCompleted 139.5 KiB/378.7 KiB (1.2 MiB/s) with 6 file(s) remainingupload: ../prowler_output/sns.asff.json to s3://prowler-reports-latest-test/sns.asff.json
+Completed 139.5 KiB/378.7 KiB (1.2 MiB/s) with 5 file(s) remainingCompleted 218.0 KiB/378.7 KiB (1.7 MiB/s) with 5 file(s) remainingupload: ../prowler_output/iam.asff.json to s3://prowler-reports-latest-test/iam.asff.json
+Completed 218.0 KiB/378.7 KiB (1.7 MiB/s) with 4 file(s) remainingCompleted 233.6 KiB/378.7 KiB (1.7 MiB/s) with 4 file(s) remainingupload: ../prowler_output/vpc.asff.json to s3://prowler-reports-latest-test/vpc.asff.json
+Completed 233.6 KiB/378.7 KiB (1.7 MiB/s) with 3 file(s) remainingCompleted 270.7 KiB/378.7 KiB (1.9 MiB/s) with 3 file(s) remainingupload: ../prowler_output/dynamodb.asff.json to s3://prowler-reports-latest-test/dynamodb.asff.json
+Completed 270.7 KiB/378.7 KiB (1.9 MiB/s) with 2 file(s) remainingCompleted 301.0 KiB/378.7 KiB (2.0 MiB/s) with 2 file(s) remainingupload: ../prowler_output/rds.asff.json to s3://prowler-reports-latest-test/rds.asff.json
+Completed 301.0 KiB/378.7 KiB (2.0 MiB/s) with 1 file(s) remainingCompleted 378.7 KiB/378.7 KiB (2.2 MiB/s) with 1 file(s) remainingupload: ../prowler_output/s3.asff.json to s3://prowler-reports-latest-test/s3.asff.json

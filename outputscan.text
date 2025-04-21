@@ -1,0 +1,2306 @@
+[1;92m                         _
+ _ __  _ __ _____      _| | ___ _ __
+| '_ \| '__/ _ \ \ /\ / / |/ _ \ '__|
+| |_) | | | (_) \ V  V /| |  __/ |
+| .__/|_|  \___/ \_/\_/ |_|\___|_|v5.6.0
+|_|[34m the handy multi-cloud security tool
+
+[33mDate: 2025-04-18 12:47:43[0m
+
+
+[1mColor code for results:[0m
+- [33mMANUAL (Manual check)[0m
+- [32mPASS (Recommended value)[0m
+- [38;5;208mMUTED (Muted by muted list)[0m
+- [31mFAIL (Fix required)[0m
+            
+[1m-> [1mUsing the AWS credentials below:[0m[0m
+[1m[0m  · AWS-CLI Profile: [33mdefault[0m[1m[0m
+[1m[0m  · AWS Regions: [33mus-east-1[0m[1m[0m
+[1m[0m  · AWS Account: [33m443370690706[0m[1m[0m
+[1m[0m  · User Id: [33mAROAWOOXT3CJDFM5UANUB:i-0a99cd0a8eaf92b06[0m[1m[0m
+[1m[0m  · Caller Identity ARN: [33marn:aws:sts::443370690706:assumed-role/ProwlerRole/i-0a99cd0a8eaf92b06[0m[1m[0m
+
+[1m-> [1mUsing the following configuration:[0m[0m
+[1m[0m  · Config File: [33m/home/prowler/prowler/config/config.yaml[0m[1m[0m
+[1m[0m  · Mutelist File: [33m/home/prowler/prowler/config/aws_mutelist.yaml[0m[1m[0m
+[1m[0m  · Scanning unused services and resources: [33mFalse[0m[1m[0m
+
+[1mExecuting 499 checks, please wait...[0m
+
+Check ID: account_maintain_current_contact_details - [35maccount[33m [medium][0m
+	[33mMANUAL[0m us-east-1: Login to the AWS Console. Choose your account name on the top right of the window -> My Account -> Contact Information.
+
+
+Check ID: account_maintain_different_contact_details_to_security_billing_and_operations - [35maccount[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: account_security_contact_information_is_registered - [35maccount[33m [medium][0m
+	[33mMANUAL[0m us-east-1: Login to the AWS Console. Choose your account name on the top right of the window -> My Account -> Alternate Contacts -> Security Section.
+
+
+Check ID: account_security_questions_are_registered_in_the_aws_account - [35maccount[33m [medium][0m
+	[33mMANUAL[0m us-east-1: Login to the AWS Console as root. Choose your account name on the top right of the window -> My Account -> Configure Security Challenge Questions.
+
+
+Check ID: acm_certificates_expiration_check - [35macm[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: acm_certificates_transparency_logs_enabled - [35macm[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: acm_certificates_with_secure_key_algorithms - [35macm[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigateway_restapi_authorizers_enabled - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigateway_restapi_cache_encrypted - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigateway_restapi_client_certificate_enabled - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigateway_restapi_logging_enabled - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigateway_restapi_public - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigateway_restapi_public_with_authorizer - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigateway_restapi_waf_acl_attached - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigatewayv2_api_access_logging_enabled - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: apigatewayv2_api_authorizers_enabled - [35mapigateway[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: appstream_fleet_default_internet_access_disabled - [35mappstream[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: appstream_fleet_maximum_session_duration - [35mappstream[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: appstream_fleet_session_disconnect_timeout - [35mappstream[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: appstream_fleet_session_idle_disconnect_timeout - [35mappstream[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: appsync_field_level_logging_enabled - [35mappsync[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: appsync_graphql_api_no_api_key_authentication - [35mappsync[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: athena_workgroup_encryption - [35mathena[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: athena_workgroup_enforce_configuration - [35mathena[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: athena_workgroup_logging_enabled - [35mathena[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: autoscaling_find_secrets_ec2_launch_configuration - [35mautoscaling[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: autoscaling_group_capacity_rebalance_enabled - [35mautoscaling[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: autoscaling_group_launch_configuration_no_public_ip - [35mautoscaling[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: autoscaling_group_launch_configuration_requires_imdsv2 - [35mautoscaling[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: autoscaling_group_multiple_az - [35mautoscaling[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: autoscaling_group_multiple_instance_types - [35mautoscaling[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: autoscaling_group_using_ec2_launch_template - [35mautoscaling[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: awslambda_function_no_secrets_in_code - [35mawslambda[33m [critical][0m
+	[32mPASS[0m us-east-1: No secrets found in Lambda function prowler-function code.
+	[32mPASS[0m us-east-1: No secrets found in Lambda function testSNS code.
+
+
+Check ID: awslambda_function_no_secrets_in_variables - [35mawslambda[33m [critical][0m
+	[32mPASS[0m us-east-1: No secrets found in Lambda function prowler-function variables.
+	[32mPASS[0m us-east-1: No secrets found in Lambda function testSNS variables.
+
+
+Check ID: awslambda_function_not_publicly_accessible - [35mawslambda[33m [critical][0m
+	[32mPASS[0m us-east-1: Lambda function prowler-function has a resource-based policy without public access.
+	[32mPASS[0m us-east-1: Lambda function testSNS has a resource-based policy without public access.
+
+
+Check ID: awslambda_function_url_cors_policy - [35mawslambda[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: awslambda_function_url_public - [35mawslambda[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: awslambda_function_using_supported_runtimes - [35mawslambda[33m [medium][0m
+	[32mPASS[0m us-east-1: Lambda function prowler-function is using python3.9 which is supported.
+	[32mPASS[0m us-east-1: Lambda function testSNS is using python3.9 which is supported.
+
+
+Check ID: awslambda_function_vpc_multi_az - [35mawslambda[33m [medium][0m
+	[31mFAIL[0m us-east-1: Lambda function prowler-function is not inside a VPC.
+	[31mFAIL[0m us-east-1: Lambda function testSNS is not inside a VPC.
+
+
+Check ID: backup_recovery_point_encrypted - [35mbackup[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: backup_vaults_encrypted - [35mbackup[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: bedrock_agent_guardrail_enabled - [35mbedrock[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: bedrock_guardrail_prompt_attack_filter_enabled - [35mbedrock[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: bedrock_guardrail_sensitive_information_filter_enabled - [35mbedrock[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: bedrock_model_invocation_logging_enabled - [35mbedrock[33m [medium][0m
+	[31mFAIL[0m us-east-1: Bedrock Model Invocation Logging is disabled.
+
+
+Check ID: bedrock_model_invocation_logs_encryption_enabled - [35mbedrock[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudformation_stack_cdktoolkit_bootstrap_version - [35mcloudformation[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudformation_stack_outputs_find_secrets - [35mcloudformation[33m [critical][0m
+	[32mPASS[0m us-east-1: No secrets found in CloudFormation Stack eksctl-dev-medium-eks-cluster-addon-iamserviceaccount-kube-system-aws-load-balancer-controller Outputs.
+
+
+Check ID: cloudformation_stacks_termination_protection_enabled - [35mcloudformation[33m [medium][0m
+	[31mFAIL[0m us-east-1: CloudFormation Stack eksctl-dev-medium-eks-cluster-addon-iamserviceaccount-kube-system-aws-load-balancer-controller has termination protection disabled.
+
+
+Check ID: cloudfront_distributions_custom_ssl_certificate - [35mcloudfront[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudfront_distributions_default_root_object - [35mcloudfront[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudfront_distributions_https_enabled - [35mcloudfront[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudfront_distributions_logging_enabled - [35mcloudfront[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudfront_distributions_origin_traffic_encrypted - [35mcloudfront[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudfront_distributions_s3_origin_access_control - [35mcloudfront[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudfront_distributions_s3_origin_non_existent_bucket - [35mcloudfront[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudfront_distributions_using_waf - [35mcloudfront[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudtrail_bucket_requires_mfa_delete - [35mcloudtrail[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudtrail_kms_encryption_enabled - [35mcloudtrail[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudtrail_log_file_validation_enabled - [35mcloudtrail[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudtrail_logs_s3_bucket_access_logging_enabled - [35mcloudtrail[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudtrail_logs_s3_bucket_is_not_publicly_accessible - [35mcloudtrail[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudtrail_multi_region_enabled - [35mcloudtrail[33m [high][0m
+	[31mFAIL[0m us-east-1: No CloudTrail trails enabled with logging were found.
+
+
+Check ID: cloudwatch_alarm_actions_alarm_state_configured - [35mcloudwatch[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudwatch_alarm_actions_enabled - [35mcloudwatch[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cloudwatch_changes_to_network_acls_alarm_configured - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_changes_to_network_gateways_alarm_configured - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_changes_to_network_route_tables_alarm_configured - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_changes_to_vpcs_alarm_configured - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_cross_account_sharing_disabled - [35mcloudwatch[33m [medium][0m
+	[32mPASS[0m us-east-1: CloudWatch doesn't allow cross-account sharing.
+
+
+Check ID: cloudwatch_log_group_kms_encryption_enabled - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: Log Group /aws/lambda/testSNS does not have AWS KMS keys associated.
+
+
+Check ID: cloudwatch_log_group_no_secrets_in_logs - [35mcloudwatch[33m [medium][0m
+	[32mPASS[0m us-east-1: No secrets found in /aws/lambda/testSNS log group.
+
+
+Check ID: cloudwatch_log_group_not_publicly_accessible - [35mcloudwatch[33m [high][0m
+	[32mPASS[0m us-east-1: Log Group /aws/lambda/testSNS is not publicly accessible.
+
+
+Check ID: cloudwatch_log_group_retention_policy_specific_days_enabled - [35mcloudwatch[33m [medium][0m
+	[32mPASS[0m us-east-1: Log Group /aws/lambda/testSNS comply with 365 days retention period since it never expires.
+
+
+Check ID: cloudwatch_log_metric_filter_and_alarm_for_aws_config_configuration_changes_enabled - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_and_alarm_for_cloudtrail_configuration_changes_enabled - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_authentication_failures - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_aws_organizations_changes - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_disable_or_scheduled_deletion_of_kms_cmk - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_for_s3_bucket_policy_changes - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_policy_changes - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_root_usage - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_security_group_changes - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_sign_in_without_mfa - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: cloudwatch_log_metric_filter_unauthorized_api_calls - [35mcloudwatch[33m [medium][0m
+	[31mFAIL[0m us-east-1: No CloudWatch log groups found with metric filters or alarms associated.
+
+
+Check ID: codeartifact_packages_external_public_publishing_disabled - [35mcodeartifact[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: codebuild_project_logging_enabled - [35mcodebuild[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: codebuild_project_no_secrets_in_variables - [35mcodebuild[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: codebuild_project_older_90_days - [35mcodebuild[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: codebuild_project_source_repo_url_no_sensitive_credentials - [35mcodebuild[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: codebuild_project_user_controlled_buildspec - [35mcodebuild[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: codebuild_report_group_export_encrypted - [35mcodebuild[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_identity_pool_guest_access_disabled - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_advanced_security_enabled - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_blocks_compromised_credentials_sign_in_attempts - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_blocks_potential_malicious_sign_in_attempts - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_client_prevent_user_existence_errors - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_client_token_revocation_enabled - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_deletion_protection_enabled - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_mfa_enabled - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_password_policy_lowercase - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_password_policy_minimum_length_14 - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_password_policy_number - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_password_policy_symbol - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_password_policy_uppercase - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_self_registration_disabled - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_temporary_password_expiration - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: cognito_user_pool_waf_acl_attached - [35mcognito[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: config_recorder_all_regions_enabled - [35mconfig[33m [medium][0m
+	[31mFAIL[0m us-east-1: AWS Config recorder 443370690706 is disabled.
+
+
+Check ID: config_recorder_using_aws_service_role - [35mconfig[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: datasync_task_logging_enabled - [35mdatasync[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: directconnect_connection_redundancy - [35mdirectconnect[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: directconnect_virtual_interface_redundancy - [35mdirectconnect[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: directoryservice_directory_log_forwarding_enabled - [35mdirectoryservice[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: directoryservice_directory_monitor_notifications - [35mdirectoryservice[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: directoryservice_ldap_certificate_expiration - [35mdirectoryservice[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: directoryservice_radius_server_security_protocol - [35mdirectoryservice[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: directoryservice_supported_mfa_radius_enabled - [35mdirectoryservice[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dlm_ebs_snapshot_lifecycle_policy_exists - [35mdlm[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_endpoint_mongodb_authentication_enabled - [35mdms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_endpoint_neptune_iam_authorization_enabled - [35mdms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_endpoint_redis_in_transit_encryption_enabled - [35mdms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_endpoint_ssl_enabled - [35mdms[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_instance_minor_version_upgrade_enabled - [35mdms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_instance_multi_az_enabled - [35mdms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_instance_no_public_access - [35mdms[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_replication_task_source_logging_enabled - [35mdms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dms_replication_task_target_logging_enabled - [35mdms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: documentdb_cluster_backup_enabled - [35mDocumentDB[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: documentdb_cluster_cloudwatch_log_export - [35mdocumentdb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: documentdb_cluster_deletion_protection - [35mdocumentdb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: documentdb_cluster_multi_az_enabled - [35mdocumentdb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: documentdb_cluster_public_snapshot - [35mdocumentdb[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: documentdb_cluster_storage_encrypted - [35mdocumentdb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: drs_job_exist - [35mdrs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_accelerator_cluster_encryption_enabled - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_accelerator_cluster_in_transit_encryption_enabled - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_accelerator_cluster_multi_az - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_table_autoscaling_enabled - [35mdynamodb[33m [medium][0m
+	[32mPASS[0m us-east-1: DynamoDB table prowler-table automatically scales capacity on demand.
+	[32mPASS[0m us-east-1: DynamoDB table terraform-lock-table automatically scales capacity on demand.
+	[32mPASS[0m us-east-1: DynamoDB table venki-devops-vvaha automatically scales capacity on demand.
+
+
+Check ID: dynamodb_table_cross_account_access - [35mdynamodb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: dynamodb_table_deletion_protection_enabled - [35mdynamodb[33m [medium][0m
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table does not have deletion protection enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table does not have deletion protection enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha does not have deletion protection enabled.
+
+
+Check ID: dynamodb_table_protected_by_backup_plan - [35mdynamodb[33m [medium][0m
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table is not protected by a backup plan.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table is not protected by a backup plan.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha is not protected by a backup plan.
+
+
+Check ID: dynamodb_tables_kms_cmk_encryption_enabled - [35mdynamodb[33m [medium][0m
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table is using DEFAULT encryption.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table is using DEFAULT encryption.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha is using DEFAULT encryption.
+
+
+Check ID: dynamodb_tables_pitr_enabled - [35mdynamodb[33m [medium][0m
+	[31mFAIL[0m us-east-1: DynamoDB table prowler-table does not have point-in-time recovery enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table terraform-lock-table does not have point-in-time recovery enabled.
+	[31mFAIL[0m us-east-1: DynamoDB table venki-devops-vvaha does not have point-in-time recovery enabled.
+
+
+Check ID: ec2_ami_public - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_default_encryption - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EBS Default Encryption is not activated.
+
+
+Check ID: ec2_ebs_public_snapshot - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_snapshot_account_block_public_access - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_snapshots_encrypted - [35mec2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_ebs_volume_encryption - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EBS Snapshot vol-049dfa8106495acc2 is unencrypted.
+	[31mFAIL[0m us-east-1: EBS Snapshot vol-0ed91484afecc4fa6 is unencrypted.
+	[31mFAIL[0m us-east-1: EBS Snapshot vol-06b6f87b1b45ba8fe is unencrypted.
+
+
+Check ID: ec2_ebs_volume_snapshots_exists - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Snapshots not found for the EBS volume vol-049dfa8106495acc2.
+	[31mFAIL[0m us-east-1: Snapshots not found for the EBS volume vol-0ed91484afecc4fa6.
+	[31mFAIL[0m us-east-1: Snapshots not found for the EBS volume vol-06b6f87b1b45ba8fe.
+
+
+Check ID: ec2_elastic_ip_shodan - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_account_imdsv2_enabled - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_instance_imdsv2_enabled - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: EC2 Instance i-066fea2848676a79f has IMDSv2 enabled and required.
+	[32mPASS[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 has IMDSv2 enabled and required.
+	[32mPASS[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 has IMDSv2 enabled and required.
+
+
+Check ID: ec2_instance_internet_facing_with_instance_profile - [35mec2[33m [medium][0m
+	[32mPASS[0m us-east-1: EC2 Instance i-066fea2848676a79f is not internet facing with an instance profile.
+	[32mPASS[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 is not internet facing with an instance profile.
+	[31mFAIL[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 at IP 54.167.117.42 is internet-facing with Instance Profile arn:aws:iam::443370690706:instance-profile/ProwlerRole.
+
+
+Check ID: ec2_instance_managed_by_ssm - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EC2 Instance i-066fea2848676a79f is not managed by Systems Manager.
+	[31mFAIL[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 is not managed by Systems Manager.
+	[32mPASS[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 is managed by Systems Manager.
+
+
+Check ID: ec2_instance_older_than_specific_days - [35mec2[33m [medium][0m
+	[32mPASS[0m us-east-1: EC2 Instance i-066fea2848676a79f is not older than 180 days (4 days).
+	[32mPASS[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 is not older than 180 days (0 days).
+	[32mPASS[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 is not older than 180 days (1 days).
+
+
+Check ID: ec2_instance_paravirtual_type - [35mec2[33m [medium][0m
+	[32mPASS[0m us-east-1: EC2 Instance i-066fea2848676a79f virtualization type is set to HVM.
+	[32mPASS[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 virtualization type is set to HVM.
+	[32mPASS[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 virtualization type is set to HVM.
+
+
+Check ID: ec2_instance_port_cassandra_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Cassandra ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Cassandra ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Cassandra ports open to the Internet.
+
+
+Check ID: ec2_instance_port_cifs_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have CIFS ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have CIFS ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have CIFS ports open to the Internet.
+
+
+Check ID: ec2_instance_port_elasticsearch_kibana_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Elasticsearch/Kibana ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Elasticsearch/Kibana ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Elasticsearch/Kibana ports open to the Internet.
+
+
+Check ID: ec2_instance_port_ftp_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have FTP ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have FTP ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have FTP ports open to the Internet.
+
+
+Check ID: ec2_instance_port_kafka_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Kafka port 9092 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Kafka port 9092 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Kafka port 9092 open to the Internet.
+
+
+Check ID: ec2_instance_port_kerberos_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Kerberos ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Kerberos ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Kerberos ports open to the Internet.
+
+
+Check ID: ec2_instance_port_ldap_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have LDAP ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have LDAP ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have LDAP ports open to the Internet.
+
+
+Check ID: ec2_instance_port_memcached_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Memcached port 11211 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Memcached port 11211 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Memcached port 11211 open to the Internet.
+
+
+Check ID: ec2_instance_port_mongodb_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have MongoDB ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have MongoDB ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have MongoDB ports open to the Internet.
+
+
+Check ID: ec2_instance_port_mysql_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have MySQL port 3306 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have MySQL port 3306 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have MySQL port 3306 open to the Internet.
+
+
+Check ID: ec2_instance_port_oracle_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Oracle ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Oracle ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Oracle ports open to the Internet.
+
+
+Check ID: ec2_instance_port_postgresql_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have PostgreSQL port 5432 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have PostgreSQL port 5432 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have PostgreSQL port 5432 open to the Internet.
+
+
+Check ID: ec2_instance_port_rdp_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have RDP port 3389 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have RDP port 3389 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have RDP port 3389 open to the Internet.
+
+
+Check ID: ec2_instance_port_redis_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Redis port 6379 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Redis port 6379 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Redis port 6379 open to the Internet.
+
+
+Check ID: ec2_instance_port_sqlserver_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have SQL Server ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have SQL Server ports open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have SQL Server ports open to the Internet.
+
+
+Check ID: ec2_instance_port_ssh_exposed_to_internet - [35mec2[33m [critical][0m
+	[31mFAIL[0m us-east-1: Instance i-066fea2848676a79f has SSH exposed to 0.0.0.0/0 on public IP address 52.91.172.77 in public subnet subnet-0b6acecb66807dcc2.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have SSH port 22 open to the Internet.
+	[31mFAIL[0m us-east-1: Instance i-0a99cd0a8eaf92b06 has SSH exposed to 0.0.0.0/0 on public IP address 54.167.117.42 in public subnet subnet-0210b80be1fdb4b37.
+
+
+Check ID: ec2_instance_port_telnet_exposed_to_internet - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Instance i-066fea2848676a79f does not have Telnet port 23 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0f2f68a9204d889c9 does not have Telnet port 23 open to the Internet.
+	[32mPASS[0m us-east-1: Instance i-0a99cd0a8eaf92b06 does not have Telnet port 23 open to the Internet.
+
+
+Check ID: ec2_instance_profile_attached - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EC2 Instance i-066fea2848676a79f not associated with an Instance Profile Role.
+	[31mFAIL[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 not associated with an Instance Profile Role.
+	[32mPASS[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 associated with Instance Profile Role arn:aws:iam::443370690706:instance-profile/ProwlerRole.
+
+
+Check ID: ec2_instance_public_ip - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: EC2 Instance i-066fea2848676a79f has a Public IP: 52.91.172.77 (ec2-52-91-172-77.compute-1.amazonaws.com).
+	[31mFAIL[0m us-east-1: EC2 Instance i-0f2f68a9204d889c9 has a Public IP: 3.91.241.214 (ec2-3-91-241-214.compute-1.amazonaws.com).
+	[31mFAIL[0m us-east-1: EC2 Instance i-0a99cd0a8eaf92b06 has a Public IP: 54.167.117.42 (ec2-54-167-117-42.compute-1.amazonaws.com).
+
+
+Check ID: ec2_instance_secrets_user_data - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: No secrets found in EC2 instance i-066fea2848676a79f since User Data is empty.
+	[32mPASS[0m us-east-1: No secrets found in EC2 instance i-0f2f68a9204d889c9 since User Data is empty.
+	[32mPASS[0m us-east-1: No secrets found in EC2 instance i-0a99cd0a8eaf92b06 since User Data is empty.
+
+
+Check ID: ec2_launch_template_imdsv2_required - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_launch_template_no_public_ip - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_launch_template_no_secrets - [35mec2[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ec2_networkacl_allow_ingress_any_port - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Network ACL acl-0fef462a6a5cbc305 has every port open to the Internet.
+	[31mFAIL[0m us-east-1: Network ACL acl-0ac12c2e33d58cd33 has every port open to the Internet.
+
+
+Check ID: ec2_networkacl_allow_ingress_tcp_port_22 - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Network ACL acl-0fef462a6a5cbc305 has SSH port 22 open to the Internet.
+	[31mFAIL[0m us-east-1: Network ACL acl-0ac12c2e33d58cd33 has SSH port 22 open to the Internet.
+
+
+Check ID: ec2_networkacl_allow_ingress_tcp_port_3389 - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Network ACL acl-0fef462a6a5cbc305 has Microsoft RDP port 3389 open to the Internet.
+	[31mFAIL[0m us-east-1: Network ACL acl-0ac12c2e33d58cd33 has Microsoft RDP port 3389 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_all_ports - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have all ports open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have all ports open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have all ports open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_any_port - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have any port open to the Internet.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) has at least one port open to the Internet but its network interface type (interface) is not allowed.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) has at least one port open to the Internet but its network interface type (interface) is not allowed.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_high_risk_tcp_ports - [35mec2[33m [critical][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have any high-risk port open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have any high-risk port open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have any high-risk port open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_port_mongodb_27017_27018 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have MongoDB ports 27017 and 27018 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have MongoDB ports 27017 and 27018 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have MongoDB ports 27017 and 27018 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_ftp_port_20_21 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have FTP ports 20 and 21 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have FTP ports 20 and 21 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have FTP ports 20 and 21 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_22 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have SSH port 22 open to the Internet.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) has SSH port 22 open to the Internet.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) has SSH port 22 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_3389 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Microsoft RDP port 3389 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Microsoft RDP port 3389 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Microsoft RDP port 3389 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_cassandra_7199_9160_8888 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Casandra ports 7199, 8888 and 9160 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Casandra ports 7199, 8888 and 9160 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Casandra ports 7199, 8888 and 9160 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_elasticsearch_kibana_9200_9300_5601 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Elasticsearch/Kibana ports 9200, 9300 and 5601 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Elasticsearch/Kibana ports 9200, 9300 and 5601 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Elasticsearch/Kibana ports 9200, 9300 and 5601 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_kafka_9092 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Kafka port 9092 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Kafka port 9092 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Kafka port 9092 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_memcached_11211 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Memcached port 11211 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Memcached port 11211 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Memcached port 11211 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_mysql_3306 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have MySQL port 3306 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have MySQL port 3306 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have MySQL port 3306 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_oracle_1521_2483 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Oracle ports 1521 and 2483 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Oracle ports 1521 and 2483 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Oracle ports 1521 and 2483 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_postgres_5432 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Postgres port 5432 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Postgres port 5432 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Postgres port 5432 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_redis_6379 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Redis port 6379 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Redis port 6379 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Redis port 6379 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_sql_server_1433_1434 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Microsoft SQL Server ports 1433 and 1434 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Microsoft SQL Server ports 1433 and 1434 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Microsoft SQL Server ports 1433 and 1434 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_ingress_from_internet_to_tcp_port_telnet_23 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) does not have Telnet port 23 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) does not have Telnet port 23 open to the Internet.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) does not have Telnet port 23 open to the Internet.
+
+
+Check ID: ec2_securitygroup_allow_wide_open_public_ipv4 - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) has no potential wide-open non-RFC1918 address.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) has no potential wide-open non-RFC1918 address.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) has no potential wide-open non-RFC1918 address.
+
+
+Check ID: ec2_securitygroup_default_restrict_traffic - [35mec2[33m [high][0m
+	[31mFAIL[0m us-east-1: Default Security Group (sg-0e0f533a225d82a67) rules allow traffic.
+
+
+Check ID: ec2_securitygroup_from_launch_wizard - [35mec2[33m [medium][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) was not created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-4 (sg-061b36a49346ef2e2) was created using the EC2 Launch Wizard.
+	[32mPASS[0m us-east-1: Security group default (sg-039725d47a0317238) was not created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-8 (sg-0e6d7b756d5ef587f) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-1 (sg-06951f600b7a9fd21) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-3 (sg-0f63e0037b824444c) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-2 (sg-00662a343b6b1a00f) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-5 (sg-030a5f9d821fb4ca2) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-6 (sg-0ba6845ecada4a2a4) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) was created using the EC2 Launch Wizard.
+	[31mFAIL[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) was created using the EC2 Launch Wizard.
+
+
+Check ID: ec2_securitygroup_with_many_ingress_egress_rules - [35mec2[33m [high][0m
+	[32mPASS[0m us-east-1: Security group default (sg-0e0f533a225d82a67) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-4 (sg-061b36a49346ef2e2) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group default (sg-039725d47a0317238) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-8 (sg-0e6d7b756d5ef587f) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-1 (sg-06951f600b7a9fd21) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-3 (sg-0f63e0037b824444c) has 3 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-2 (sg-00662a343b6b1a00f) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-5 (sg-030a5f9d821fb4ca2) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-6 (sg-0ba6845ecada4a2a4) has 2 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-7 (sg-09703b8bc371a32c1) has 1 inbound rules and 1 outbound rules.
+	[32mPASS[0m us-east-1: Security group launch-wizard-9 (sg-08a970a693b33ea29) has 1 inbound rules and 1 outbound rules.
+
+
+Check ID: ec2_transitgateway_auto_accept_vpc_attachments - [35mec2[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecr_registry_scan_images_on_push_enabled - [35mecr[33m [medium][0m
+	[31mFAIL[0m us-east-1: ECR registry 443370690706 has BASIC scanning without scan on push enabled.
+
+
+Check ID: ecr_repositories_not_publicly_accessible - [35mecr[33m [critical][0m
+	[32mPASS[0m us-east-1: Repository frontend is not publicly accessible.
+	[32mPASS[0m us-east-1: Repository prowler-ecr is not publicly accessible.
+	[32mPASS[0m us-east-1: Repository backend is not publicly accessible.
+
+
+Check ID: ecr_repositories_scan_images_on_push_enabled - [35mecr[33m [medium][0m
+	[31mFAIL[0m us-east-1: ECR repository frontend has scan on push disabled.
+	[31mFAIL[0m us-east-1: ECR repository prowler-ecr has scan on push disabled.
+	[31mFAIL[0m us-east-1: ECR repository backend has scan on push disabled.
+
+
+Check ID: ecr_repositories_scan_vulnerabilities_in_latest_image - [35mecr[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecr_repositories_tag_immutability - [35mecr[33m [medium][0m
+	[31mFAIL[0m us-east-1: Repository frontend does not have immutability configured.
+	[31mFAIL[0m us-east-1: Repository prowler-ecr does not have immutability configured.
+	[31mFAIL[0m us-east-1: Repository backend does not have immutability configured.
+
+
+Check ID: ecs_cluster_container_insights_enabled - [35mecs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_service_fargate_latest_platform_version - [35mecs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_service_no_assign_public_ip - [35mecs[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_task_definitions_containers_readonly_access - [35mecs[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_task_definitions_host_namespace_not_shared - [35mecs[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_task_definitions_host_networking_mode_users - [35mecs[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_task_definitions_logging_enabled - [35mecs[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_task_definitions_no_environment_secrets - [35mecs[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_task_definitions_no_privileged_containers - [35mecs[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ecs_task_set_no_assign_public_ip - [35mecs[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: efs_access_point_enforce_root_directory - [35mefs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: efs_access_point_enforce_user_identity - [35mefs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: efs_encryption_at_rest_enabled - [35mefs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: efs_have_backup_enabled - [35mefs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: efs_mount_target_not_publicly_accessible - [35mefs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: efs_not_publicly_accessible - [35mefs[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eks_cluster_kms_cmk_encryption_in_secrets_enabled - [35meks[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eks_cluster_network_policy_enabled - [35meks[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eks_cluster_not_publicly_accessible - [35meks[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eks_cluster_private_nodes_enabled - [35meks[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eks_cluster_uses_a_supported_version - [35meks[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eks_control_plane_logging_all_types_enabled - [35meks[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_cluster_uses_public_subnet - [35melasticache[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_redis_cluster_auto_minor_version_upgrades - [35melasticache[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_redis_cluster_automatic_failover_enabled - [35melasticache[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_redis_cluster_backup_enabled - [35melasticache[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_redis_cluster_in_transit_encryption_enabled - [35melasticache[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_redis_cluster_multi_az_enabled - [35melasticache[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_redis_cluster_rest_encryption_enabled - [35melasticache[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticache_redis_replication_group_auth_enabled - [35melasticache[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticbeanstalk_environment_cloudwatch_logging_enabled - [35melasticbeanstalk[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elasticbeanstalk_environment_managed_updates_enabled - [35melasticbeanstalk[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_connection_draining_enabled - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_cross_zone_load_balancing_enabled - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_desync_mitigation_mode - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_insecure_ssl_ciphers - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_internet_facing - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_is_in_multiple_az - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_logging_enabled - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_ssl_listeners - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elb_ssl_listeners_use_acm_certificate - [35melb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_cross_zone_load_balancing_enabled - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_deletion_protection - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_desync_mitigation_mode - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_insecure_ssl_ciphers - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_internet_facing - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_is_in_multiple_az - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_listeners_underneath - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_logging_enabled - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_nlb_tls_termination_enabled - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_ssl_listeners - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: elbv2_waf_acl_attached - [35melbv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: emr_cluster_account_public_block_enabled - [35memr[33m [high][0m
+	[32mPASS[0m us-east-1: EMR Account has Block Public Access enabled.
+
+
+Check ID: emr_cluster_master_nodes_no_public_ip - [35memr[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: emr_cluster_publicly_accesible - [35memr[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eventbridge_bus_cross_account_access - [35meventbridge[33m [high][0m
+	[32mPASS[0m us-east-1: EventBridge event bus default does not allow cross-account access.
+
+
+Check ID: eventbridge_bus_exposed - [35meventbridge[33m [high][0m
+	[32mPASS[0m us-east-1: EventBridge event bus default is not exposed to everyone.
+
+
+Check ID: eventbridge_global_endpoint_event_replication_enabled - [35meventbridge[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: eventbridge_schema_registry_cross_account_access - [35meventbridge[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: firehose_stream_encrypted_at_rest - [35mfirehose[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: fms_policy_compliant - [35mfms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glacier_vaults_policy_public_access - [35mglacier[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_data_catalogs_connection_passwords_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_data_catalogs_metadata_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_data_catalogs_not_publicly_accessible - [35mglue[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_database_connections_ssl_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_development_endpoints_cloudwatch_logs_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_development_endpoints_job_bookmark_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_development_endpoints_s3_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_etl_jobs_amazon_s3_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_etl_jobs_cloudwatch_logs_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_etl_jobs_job_bookmark_encryption_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_etl_jobs_logging_enabled - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: glue_ml_transform_encrypted_at_rest - [35mglue[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_centrally_managed - [35mguardduty[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_ec2_malware_protection_enabled - [35mguardduty[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_eks_audit_log_enabled - [35mguardduty[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_eks_runtime_monitoring_enabled - [35mguardduty[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_is_enabled - [35mguardduty[33m [medium][0m
+	[31mFAIL[0m us-east-1: GuardDuty is not enabled.
+
+
+Check ID: guardduty_lambda_protection_enabled - [35mguardduty[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_no_high_severity_findings - [35mguardduty[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_rds_protection_enabled - [35mguardduty[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: guardduty_s3_protection_enabled - [35mguardduty[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_administrator_access_with_mfa - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_avoid_root_usage - [35miam[33m [high][0m
+	[32mPASS[0m us-east-1: Root user in the account wasn't accessed in the last 1 days.
+
+
+Check ID: iam_aws_attached_policy_no_administrative_privileges - [35miam[33m [high][0m
+	[32mPASS[0m us-east-1: AWS policy AmazonEC2ReadOnlyAccess is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AmazonSSMManagedInstanceCore is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AutoScalingServiceRolePolicy is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AmazonRDSServiceRolePolicy is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AWSElasticLoadBalancingServiceRolePolicy is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AWSTrustedAdvisorServiceRolePolicy is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AWSEC2SpotServiceRolePolicy is attached but does not allow '*:*' administrative privileges.
+	[31mFAIL[0m us-east-1: AWS policy AdministratorAccess is attached and allows '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AWSSupportServiceRolePolicy is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy ViewOnlyAccess is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy SecurityAudit is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AmazonS3FullAccess is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AmazonEKSServiceRolePolicy is attached but does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: AWS policy AWSServiceRoleForAmazonEKSNodegroup is attached but does not allow '*:*' administrative privileges.
+
+
+Check ID: iam_customer_attached_policy_no_administrative_privileges - [35miam[33m [high][0m
+	[32mPASS[0m us-east-1: Custom policy AWSLambdaBasicExecutionRole-f9d44eae-8614-4a6b-958d-3c4b49ba22e1 is attached but does not allow '*:*' administrative privileges.
+
+
+Check ID: iam_group_administrator_access_policy - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_inline_policy_allows_privilege_escalation - [35miam[33m [high][0m
+	[32mPASS[0m us-east-1: Inline policy ExtraProwler attached to role ProwlerRole does not allow privilege escalation.
+	[32mPASS[0m us-east-1: Inline policy ProwlerPolicy attached to role testrole does not allow privilege escalation.
+
+
+Check ID: iam_inline_policy_no_administrative_privileges - [35miam[33m [high][0m
+	[32mPASS[0m us-east-1: Inline policy ExtraProwler attached to role ProwlerRole does not allow '*:*' administrative privileges.
+	[32mPASS[0m us-east-1: Inline policy ProwlerPolicy attached to role testrole does not allow '*:*' administrative privileges.
+
+
+Check ID: iam_inline_policy_no_full_access_to_cloudtrail - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: Inline policy ExtraProwler attached to role ProwlerRole does not allow 'cloudtrail:*' privileges.
+	[32mPASS[0m us-east-1: Inline policy ProwlerPolicy attached to role testrole does not allow 'cloudtrail:*' privileges.
+
+
+Check ID: iam_inline_policy_no_full_access_to_kms - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: Inline policy ExtraProwler attached to role ProwlerRole does not allow 'kms:*' privileges.
+	[32mPASS[0m us-east-1: Inline policy ProwlerPolicy attached to role testrole does not allow 'kms:*' privileges.
+
+
+Check ID: iam_no_custom_policy_permissive_role_assumption - [35miam[33m [high][0m
+	[32mPASS[0m us-east-1: Custom Policy full-access does not allow permissive STS Role assumption.
+	[38;5;208mMUTED (PASS)[0m us-east-1: Custom Policy AWSLoadBalancerControllerIAMPolicy does not allow permissive STS Role assumption.
+	[32mPASS[0m us-east-1: Custom Policy AWSLambdaBasicExecutionRole-f9d44eae-8614-4a6b-958d-3c4b49ba22e1 does not allow permissive STS Role assumption.
+
+
+Check ID: iam_no_expired_server_certificates_stored - [35miam[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_no_root_access_key - [35miam[33m [critical][0m
+	[32mPASS[0m us-east-1: Root account does not have access keys.
+
+
+Check ID: iam_password_policy_expires_passwords_within_90_days_or_less - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: Password expiration is not set.
+
+
+Check ID: iam_password_policy_lowercase - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one lowercase letter.
+
+
+Check ID: iam_password_policy_minimum_length_14 - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require minimum length of 14 characters.
+
+
+Check ID: iam_password_policy_number - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one number.
+
+
+Check ID: iam_password_policy_reuse_24 - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy reuse prevention is less than 24 or not set.
+
+
+Check ID: iam_password_policy_symbol - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one symbol.
+
+
+Check ID: iam_password_policy_uppercase - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: IAM password policy does not require at least one uppercase letter.
+
+
+Check ID: iam_policy_allows_privilege_escalation - [35miam[33m [high][0m
+	[32mPASS[0m us-east-1: Custom Policy arn:aws:iam::443370690706:policy/full-access does not allow privilege escalation.
+	[38;5;208mMUTED (PASS)[0m us-east-1: Custom Policy arn:aws:iam::443370690706:policy/AWSLoadBalancerControllerIAMPolicy does not allow privilege escalation.
+	[32mPASS[0m us-east-1: Custom Policy arn:aws:iam::443370690706:policy/service-role/AWSLambdaBasicExecutionRole-f9d44eae-8614-4a6b-958d-3c4b49ba22e1 does not allow privilege escalation.
+
+
+Check ID: iam_policy_cloudshell_admin_not_attached - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: AWS CloudShellFullAccess policy is not attached to any IAM entity.
+
+
+Check ID: iam_policy_no_full_access_to_cloudtrail - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: Custom Policy full-access does not allow 'cloudtrail:*' privileges.
+	[38;5;208mMUTED (PASS)[0m us-east-1: Custom Policy AWSLoadBalancerControllerIAMPolicy does not allow 'cloudtrail:*' privileges.
+	[32mPASS[0m us-east-1: Custom Policy AWSLambdaBasicExecutionRole-f9d44eae-8614-4a6b-958d-3c4b49ba22e1 does not allow 'cloudtrail:*' privileges.
+
+
+Check ID: iam_policy_no_full_access_to_kms - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: Custom Policy full-access does not allow 'kms:*' privileges.
+	[38;5;208mMUTED (PASS)[0m us-east-1: Custom Policy AWSLoadBalancerControllerIAMPolicy does not allow 'kms:*' privileges.
+	[32mPASS[0m us-east-1: Custom Policy AWSLambdaBasicExecutionRole-f9d44eae-8614-4a6b-958d-3c4b49ba22e1 does not allow 'kms:*' privileges.
+
+
+Check ID: iam_role_administratoraccess_policy - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_role_cross_account_readonlyaccess_policy - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_role_cross_service_confused_deputy_prevention - [35miam[33m [high][0m
+	[31mFAIL[0m us-east-1: IAM Service Role aws-ec2 does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role aws-ec2-venki does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role iam_for_lambda1 does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role prowler-iam-role does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role ProwlerRole does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role s3role does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role testrole does not prevent against a cross-service confused deputy attack.
+	[31mFAIL[0m us-east-1: IAM Service Role testSNS-role-sklx818t does not prevent against a cross-service confused deputy attack.
+
+
+Check ID: iam_root_credentials_management_enabled - [35miam[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: iam_root_hardware_mfa_enabled - [35miam[33m [critical][0m
+	[31mFAIL[0m us-east-1: MFA is not enabled for root account.
+
+
+Check ID: iam_root_mfa_enabled - [35miam[33m [critical][0m
+	[31mFAIL[0m us-east-1: MFA is not enabled for root account.
+
+
+Check ID: iam_rotate_access_key_90_days - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: User <root_account> does not have access keys.
+	[32mPASS[0m us-east-1: User venkatesh does not have access keys older than 90 days.
+
+
+Check ID: iam_support_role_created - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: AWS Support Access policy is not attached to any role.
+
+
+Check ID: iam_user_accesskey_unused - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: User <root_account> does not have access keys.
+	[32mPASS[0m us-east-1: User venkatesh does not have unused access keys for 45 days.
+
+
+Check ID: iam_user_administrator_access_policy - [35miam[33m [high][0m
+	[31mFAIL[0m us-east-1: IAM User venkatesh has AdministratorAccess policy attached.
+
+
+Check ID: iam_user_console_access_unused - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: User venkatesh has logged in to the console in the past 45 days (0 days).
+
+
+Check ID: iam_user_hardware_mfa_enabled - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: User venkatesh does not have any type of MFA enabled.
+
+
+Check ID: iam_user_mfa_enabled_console_access - [35miam[33m [high][0m
+	[31mFAIL[0m us-east-1: User venkatesh has Console Password enabled but MFA disabled.
+
+
+Check ID: iam_user_no_setup_initial_access_key - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: User <root_account> does not have access keys or uses the access keys configured.
+	[32mPASS[0m us-east-1: User venkatesh does not have access keys or uses the access keys configured.
+
+
+Check ID: iam_user_two_active_access_key - [35miam[33m [medium][0m
+	[32mPASS[0m us-east-1: User <root_account> does not have 2 active access keys.
+	[31mFAIL[0m us-east-1: User venkatesh has 2 active access keys.
+
+
+Check ID: iam_user_with_temporary_credentials - [35miam[33m [medium][0m
+	[31mFAIL[0m us-east-1: User venkatesh has long lived credentials with access to other services than IAM or STS.
+
+
+Check ID: inspector2_active_findings_exist - [35minspector2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: inspector2_is_enabled - [35minspector2[33m [medium][0m
+	[31mFAIL[0m us-east-1: Inspector2 is not enabled in this account.
+
+
+Check ID: kafka_cluster_encryption_at_rest_uses_cmk - [35mkafka[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kafka_cluster_enhanced_monitoring_enabled - [35mkafka[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kafka_cluster_in_transit_encryption_enabled - [35mkafka[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kafka_cluster_is_public - [35mkafka[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kafka_cluster_mutual_tls_authentication_enabled - [35mkafka[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kafka_cluster_unrestricted_access_disabled - [35mkafka[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kafka_cluster_uses_latest_version - [35mkafka[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kafka_connector_in_transit_encryption_enabled - [35mkafka[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kinesis_stream_data_retention_period - [35mkinesis[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kinesis_stream_encrypted_at_rest - [35mkinesis[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kms_cmk_are_used - [35mkms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kms_cmk_not_deleted_unintentionally - [35mkms[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kms_cmk_not_multi_region - [35mkms[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kms_cmk_rotation_enabled - [35mkms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: kms_key_not_publicly_accessible - [35mkms[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: lightsail_database_public - [35mlightsail[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: lightsail_instance_automated_snapshots - [35mlightsail[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: lightsail_instance_public - [35mlightsail[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: macie_automated_sensitive_data_discovery_enabled - [35mmacie[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: memorydb_cluster_auto_minor_version_upgrades - [35mmemorydb[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: mq_broker_logging_enabled - [35mmq[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: mq_broker_not_publicly_accessible - [35mmq[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_backup_enabled - [35mneptune[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_deletion_protection - [35mneptune[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_iam_authentication_enabled - [35mneptune[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_integration_cloudwatch_logs - [35mneptune[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_multi_az - [35mneptune[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_public_snapshot - [35mneptune[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_snapshot_encrypted - [35mneptune[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_storage_encrypted - [35mneptune[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: neptune_cluster_uses_public_subnet - [35mneptune[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: networkfirewall_deletion_protection - [35mnetwork-firewall[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: networkfirewall_in_all_vpc - [35mnetwork-firewall[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC vpc-09b68eb946238b31c does not have Network Firewall enabled.
+
+
+Check ID: networkfirewall_logging_enabled - [35mnetwork-firewall[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: networkfirewall_multi_az - [35mnetwork-firewall[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: networkfirewall_policy_default_action_fragmented_packets - [35mnetwork-firewall[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: networkfirewall_policy_default_action_full_packets - [35mnetwork-firewall[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: networkfirewall_policy_rule_group_associated - [35mnetwork-firewall[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_cloudwatch_logging_enabled - [35mopensearch[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_encryption_at_rest_enabled - [35mopensearch[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_fault_tolerant_data_nodes - [35mopensearch[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_fault_tolerant_master_nodes - [35mopensearch[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_https_communications_enforced - [35mopensearch[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_internal_user_database_enabled - [35mopensearch[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_node_to_node_encryption_enabled - [35mopensearch[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_not_publicly_accessible - [35mopensearch[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: opensearch_service_domains_use_cognito_authentication_for_kibana - [35mopensearch[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: organizations_account_part_of_organizations - [35morganizations[33m [medium][0m
+	[31mFAIL[0m us-east-1: AWS Organizations is not in-use for this AWS Account.
+
+
+Check ID: organizations_delegated_administrators - [35morganizations[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: organizations_tags_policies_enabled_and_attached - [35morganizations[33m [medium][0m
+	[31mFAIL[0m us-east-1: AWS Organizations is not in-use for this AWS Account.
+
+
+Check ID: rds_cluster_backtrack_enabled - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_default_admin - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_iam_authentication_enabled - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_integration_cloudwatch_logs - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_minor_version_upgrade_enabled - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_multi_az - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_protected_by_backup_plan - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_cluster_storage_encrypted - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_instance_backup_enabled - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have backup enabled.
+
+
+Check ID: rds_instance_certificate_expiration - [35mrds[33m [high][0m
+	[32mPASS[0m us-east-1: RDS Instance prowler-rds-db certificate has over 6 months of validity left.
+
+
+Check ID: rds_instance_default_admin - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db is using the default master username.
+
+
+Check ID: rds_instance_deletion_protection - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db deletion protection is not enabled.
+
+
+Check ID: rds_instance_deprecated_engine_version - [35mrds[33m [medium][0m
+	[32mPASS[0m us-east-1: RDS instance prowler-rds-db is not using a deprecated engine mysql with version 8.0.40.
+
+
+Check ID: rds_instance_event_subscription_security_groups - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS security group event categories of configuration change and failure are not subscribed.
+
+
+Check ID: rds_instance_iam_authentication_enabled - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have IAM authentication enabled.
+
+
+Check ID: rds_instance_inside_vpc - [35mrds[33m [high][0m
+	[32mPASS[0m us-east-1: RDS Instance prowler-rds-db is deployed in a VPC vpc-09b68eb946238b31c.
+
+
+Check ID: rds_instance_integration_cloudwatch_logs - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have CloudWatch Logs enabled.
+
+
+Check ID: rds_instance_multi_az - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db does not have multi-AZ enabled.
+
+
+Check ID: rds_instance_no_public_access - [35mrds[33m [critical][0m
+	[32mPASS[0m us-east-1: RDS Instance prowler-rds-db is not publicly accessible.
+
+
+Check ID: rds_instance_protected_by_backup_plan - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db is not protected by a backup plan.
+
+
+Check ID: rds_instance_storage_encrypted - [35mrds[33m [medium][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db is not encrypted.
+
+
+Check ID: rds_instance_transport_encrypted - [35mrds[33m [high][0m
+	[31mFAIL[0m us-east-1: RDS Instance prowler-rds-db connections are not encrypted.
+
+
+Check ID: rds_snapshots_encrypted - [35mrds[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: rds_snapshots_public_access - [35mrds[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_audit_logging - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_automated_snapshot - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_automatic_upgrades - [35mredshift[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_encrypted_at_rest - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_enhanced_vpc_routing - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_in_transit_encryption_enabled - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_multi_az_enabled - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_non_default_database_name - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_non_default_username - [35mredshift[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: redshift_cluster_public_access - [35mredshift[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: route53_dangling_ip_subdomain_takeover - [35mroute53[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: route53_domains_privacy_protection_enabled - [35mroute53[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: route53_domains_transferlock_enabled - [35mroute53[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: route53_public_hosted_zones_cloudwatch_logging_enabled - [35mroute53[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_access_point_public_access_block - [35ms3[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: s3_account_level_public_access_blocks - [35ms3[33m [high][0m
+	[31mFAIL[0m us-east-1: Block Public Access is not configured for the account 443370690706.
+
+
+Check ID: s3_bucket_acl_prohibited - [35ms3[33m [medium][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket has bucket ACLs disabled.
+	[32mPASS[0m us-east-1: S3 Bucket prowler-reports-latest-test has bucket ACLs disabled.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket has bucket ACLs disabled.
+	[32mPASS[0m us-east-1: S3 Bucket venki-devops-vvaha has bucket ACLs disabled.
+
+
+Check ID: s3_bucket_cross_account_access - [35ms3[33m [high][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket does not have a bucket policy.
+	[32mPASS[0m us-east-1: S3 Bucket prowler-reports-latest-test has a bucket policy but it does not allow cross account access.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket does not have a bucket policy.
+	[32mPASS[0m us-east-1: S3 Bucket venki-devops-vvaha does not have a bucket policy.
+
+
+Check ID: s3_bucket_default_encryption - [35ms3[33m [medium][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket has Server Side Encryption with AES256.
+	[32mPASS[0m us-east-1: S3 Bucket prowler-reports-latest-test has Server Side Encryption with AES256.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket has Server Side Encryption with AES256.
+	[32mPASS[0m us-east-1: S3 Bucket venki-devops-vvaha has Server Side Encryption with AES256.
+
+
+Check ID: s3_bucket_event_notifications_enabled - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket does not have event notifications enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test does not have event notifications enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket does not have event notifications enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha does not have event notifications enabled.
+
+
+Check ID: s3_bucket_kms_encryption - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket prowler-iac-bucket.
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket prowler-reports-latest-test.
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket rvs-vvaha-bucket.
+	[31mFAIL[0m us-east-1: Server Side Encryption is not configured with kms for S3 Bucket venki-devops-vvaha.
+
+
+Check ID: s3_bucket_level_public_access_block - [35ms3[33m [medium][0m
+	[32mPASS[0m us-east-1: Block Public Access is configured for the S3 Bucket prowler-iac-bucket.
+	[31mFAIL[0m us-east-1: Block Public Access is not configured for the S3 Bucket prowler-reports-latest-test.
+	[32mPASS[0m us-east-1: Block Public Access is configured for the S3 Bucket rvs-vvaha-bucket.
+	[32mPASS[0m us-east-1: Block Public Access is configured for the S3 Bucket venki-devops-vvaha.
+
+
+Check ID: s3_bucket_no_mfa_delete - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket has MFA Delete disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test has MFA Delete disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket has MFA Delete disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha has MFA Delete disabled.
+
+
+Check ID: s3_bucket_object_versioning - [35ms3[33m [medium][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket has versioning enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test has versioning disabled.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket has versioning enabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha has versioning disabled.
+
+
+Check ID: s3_bucket_policy_public_write_access - [35ms3[33m [critical][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket does not have a bucket policy.
+	[32mPASS[0m us-east-1: S3 Bucket prowler-reports-latest-test does not allow public write access in the bucket policy.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket does not have a bucket policy.
+	[32mPASS[0m us-east-1: S3 Bucket venki-devops-vvaha does not have a bucket policy.
+
+
+Check ID: s3_bucket_public_access - [35ms3[33m [critical][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket is not public.
+	[32mPASS[0m us-east-1: S3 Bucket prowler-reports-latest-test is not public.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket is not public.
+	[32mPASS[0m us-east-1: S3 Bucket venki-devops-vvaha is not public.
+
+
+Check ID: s3_bucket_public_list_acl - [35ms3[33m [critical][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket is not publicly listable.
+	[32mPASS[0m us-east-1: S3 Bucket prowler-reports-latest-test is not publicly listable.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket is not publicly listable.
+	[32mPASS[0m us-east-1: S3 Bucket venki-devops-vvaha is not publicly listable.
+
+
+Check ID: s3_bucket_public_write_acl - [35ms3[33m [critical][0m
+	[32mPASS[0m us-east-1: S3 Bucket prowler-iac-bucket is not publicly writable.
+	[32mPASS[0m us-east-1: S3 Bucket prowler-reports-latest-test is not publicly writable.
+	[32mPASS[0m us-east-1: S3 Bucket rvs-vvaha-bucket is not publicly writable.
+	[32mPASS[0m us-east-1: S3 Bucket venki-devops-vvaha is not publicly writable.
+
+
+Check ID: s3_bucket_secure_transport_policy - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket does not have a bucket policy, thus it allows HTTP requests.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test allows requests over insecure transport in the bucket policy.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket does not have a bucket policy, thus it allows HTTP requests.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha does not have a bucket policy, thus it allows HTTP requests.
+
+
+Check ID: s3_bucket_server_access_logging_enabled - [35ms3[33m [medium][0m
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-iac-bucket has server access logging disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket prowler-reports-latest-test has server access logging disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket rvs-vvaha-bucket has server access logging disabled.
+	[31mFAIL[0m us-east-1: S3 Bucket venki-devops-vvaha has server access logging disabled.
+
+
+Check ID: s3_multi_region_access_point_public_access_block - [35ms3[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_endpoint_config_prod_variant_instances - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_models_network_isolation_enabled - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_models_vpc_settings_configured - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_notebook_instance_encryption_enabled - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_notebook_instance_root_access_disabled - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_notebook_instance_vpc_settings_configured - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_notebook_instance_without_direct_internet_access_configured - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_training_jobs_intercontainer_encryption_enabled - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_training_jobs_network_isolation_enabled - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_training_jobs_volume_and_output_encryption_enabled - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sagemaker_training_jobs_vpc_settings_configured - [35msagemaker[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: secretsmanager_automatic_rotation_enabled - [35msecretsmanager[33m [medium][0m
+	[31mFAIL[0m us-east-1: SecretsManager secret prowler-secret-1 has rotation disabled.
+
+
+Check ID: secretsmanager_not_publicly_accessible - [35msecretsmanager[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: secretsmanager_secret_rotated_periodically - [35msecretsmanager[33m [medium][0m
+	[31mFAIL[0m us-east-1: Secret prowler-secret-1 has never been rotated.
+
+
+Check ID: secretsmanager_secret_unused - [35msecretsmanager[33m [medium][0m
+	[32mPASS[0m us-east-1: Secret prowler-secret-1 has been accessed recently, last accessed on April 18, 2025.
+
+
+Check ID: securityhub_enabled - [35msecurityhub[33m [medium][0m
+	[31mFAIL[0m us-east-1: Security Hub is not enabled.
+
+
+Check ID: servicecatalog_portfolio_shared_within_organization_only - [35mservicecatalog[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ses_identity_not_publicly_accessible - [35mses[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: shield_advanced_protection_in_associated_elastic_ips - [35mshield[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: shield_advanced_protection_in_classic_load_balancers - [35mshield[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: shield_advanced_protection_in_cloudfront_distributions - [35mshield[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: shield_advanced_protection_in_global_accelerators - [35mshield[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: shield_advanced_protection_in_internet_facing_load_balancers - [35mshield[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: shield_advanced_protection_in_route53_hosted_zones - [35mshield[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sns_subscription_not_using_http_endpoints - [35msns[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: sns_topics_kms_encryption_at_rest_enabled - [35msns[33m [high][0m
+	[31mFAIL[0m us-east-1: SNS topic prowler-sns-topic is not encrypted.
+
+
+Check ID: sns_topics_not_publicly_accessible - [35msns[33m [high][0m
+	[32mPASS[0m us-east-1: SNS topic prowler-sns-topic is not public because its policy only allows access from the account 443370690706.
+
+
+Check ID: sqs_queues_not_publicly_accessible - [35msqs[33m [critical][0m
+	[32mPASS[0m us-east-1: SQS queue https://sqs.us-east-1.amazonaws.com/443370690706/prowler-queue is not public.
+
+
+Check ID: sqs_queues_server_side_encryption_enabled - [35msqs[33m [medium][0m
+	[32mPASS[0m us-east-1: SQS queue https://sqs.us-east-1.amazonaws.com/443370690706/prowler-queue is using Server Side Encryption.
+
+
+Check ID: ssm_document_secrets - [35mssm[33m [critical][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ssm_documents_set_as_public - [35mssm[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: ssm_managed_compliant_patching - [35mssm[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: stepfunctions_statemachine_logging_enabled - [35mstepfunctions[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: transfer_server_in_transit_encryption_enabled - [35mtransfer[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: trustedadvisor_errors_and_warnings - [35mtrustedadvisor[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_different_regions - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPCs found only in one region.
+
+
+Check ID: vpc_endpoint_connections_trust_boundaries - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_endpoint_for_ec2_enabled - [35mec2[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC vpc-09b68eb946238b31c has no EC2 endpoint.
+
+
+Check ID: vpc_endpoint_multi_az_enabled - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_endpoint_services_allowed_principals_trust_boundaries - [35mvpc[33m [medium][0m
+	[32mPASS[0m us-east-1: VPC Endpoint Service vpce-svc-02e288a4c6043110f has no allowed principals.
+
+
+Check ID: vpc_flow_logs_enabled - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC vpc-09b68eb946238b31c Flow logs are disabled.
+
+
+Check ID: vpc_peering_routing_tables_with_least_privilege - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: vpc_subnet_different_az - [35mvpc[33m [medium][0m
+	[32mPASS[0m us-east-1: VPC vpc-09b68eb946238b31c has subnets in more than one availability zone.
+
+
+Check ID: vpc_subnet_no_public_ip_by_default - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC subnet subnet-0b9ca4da51541fa18 assigns public IP by default.
+	[31mFAIL[0m us-east-1: VPC subnet subnet-0210b80be1fdb4b37 assigns public IP by default.
+	[31mFAIL[0m us-east-1: VPC subnet subnet-0b6acecb66807dcc2 assigns public IP by default.
+
+
+Check ID: vpc_subnet_separate_private_public - [35mvpc[33m [medium][0m
+	[31mFAIL[0m us-east-1: VPC vpc-09b68eb946238b31c has only public subnets.
+
+
+Check ID: vpc_vpn_connection_tunnels_up - [35mvpc[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: waf_global_rule_with_conditions - [35mwaf[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: waf_global_rulegroup_not_empty - [35mwaf[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: waf_global_webacl_logging_enabled - [35mwaf[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: waf_global_webacl_with_rules - [35mwaf[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: waf_regional_rule_with_conditions - [35mwaf[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: waf_regional_rulegroup_not_empty - [35mwaf[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: waf_regional_webacl_with_rules - [35mwaf[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: wafv2_webacl_logging_enabled - [35mwafv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: wafv2_webacl_rule_logging_enabled - [35mwafv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: wafv2_webacl_with_rules - [35mwafv2[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: wellarchitected_workload_no_high_or_medium_risks - [35mwellarchitected[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: workspaces_volume_encryption_enabled - [35mworkspaces[33m [high][0m
+	[33mINFO[0m There are no resources
+
+
+Check ID: workspaces_vpc_2private_1public_subnets_nat - [35mworkspaces[33m [medium][0m
+	[33mINFO[0m There are no resources
+
+-> [32mScan completed![0m |▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉| 499/499 [100%] in 36.7s 
+
+Overview Results:
+╭─────────────────────┬─────────────────────┬─────────────────╮
+│ [31m38.68% (152) Failed[0m │ [32m60.56% (238) Passed[0m │ [38;5;208m1.02% (4) Muted[0m │
+╰─────────────────────┴─────────────────────┴─────────────────╯
+
+Account [33m443370690706[0m Scan Results (severity columns are for fails only):
+╭────────────┬──────────────────┬───────────┬────────────┬────────┬──────────┬───────┬─────────╮
+│ Provider   │ Service          │ Status    │   Critical │   High │   Medium │   Low │   Muted │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ account          │ [32mPASS (0)[0m  │          [91m0[0m │      [31m0[0m │        [33m0[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ awslambda        │ [31mFAIL (2)[0m  │          [91m0[0m │      [31m0[0m │        [33m2[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ bedrock          │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ cloudformation   │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ cloudtrail       │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m1[0m │        [33m0[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ cloudwatch       │ [31mFAIL (16)[0m │          [91m0[0m │      [31m0[0m │       [33m16[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ config           │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ dynamodb         │ [31mFAIL (12)[0m │          [91m0[0m │      [31m0[0m │       [33m12[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ ec2              │ [31mFAIL (37)[0m │          [91m2[0m │      [31m5[0m │       [33m30[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ ecr              │ [31mFAIL (7)[0m  │          [91m0[0m │      [31m0[0m │        [33m7[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ emr              │ [32mPASS (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m0[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ eventbridge      │ [32mPASS (2)[0m  │          [91m0[0m │      [31m0[0m │        [33m0[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ guardduty        │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ iam              │ [31mFAIL (24)[0m │          [91m2[0m │     [31m11[0m │       [33m11[0m │     [34m0[0m │       [38;5;208m4[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ inspector2       │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ network-firewall │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ organizations    │ [31mFAIL (2)[0m  │          [91m0[0m │      [31m0[0m │        [33m2[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ rds              │ [31mFAIL (10)[0m │          [91m0[0m │      [31m1[0m │        [33m9[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ s3               │ [31mFAIL (24)[0m │          [91m0[0m │      [31m1[0m │       [33m23[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ secretsmanager   │ [31mFAIL (2)[0m  │          [91m0[0m │      [31m0[0m │        [33m2[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ securityhub      │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ sns              │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m1[0m │        [33m0[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ sqs              │ [32mPASS (2)[0m  │          [91m0[0m │      [31m0[0m │        [33m0[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ vpc              │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ ec2              │ [31mFAIL (1)[0m  │          [91m0[0m │      [31m0[0m │        [33m1[0m │     [34m0[0m │       [38;5;208m0[0m │
+├────────────┼──────────────────┼───────────┼────────────┼────────┼──────────┼───────┼─────────┤
+│ aws        │ vpc              │ [31mFAIL (5)[0m  │          [91m0[0m │      [31m0[0m │        [33m5[0m │     [34m0[0m │       [38;5;208m0[0m │
+╰────────────┴──────────────────┴───────────┴────────────┴────────┴──────────┴───────┴─────────╯
+[1m* You only see here those services that contains resources.[0m
+
+Detailed results are in:
+ - CSV: /home/prowler/output/prowler-output-443370690706-20250418124743.csv
